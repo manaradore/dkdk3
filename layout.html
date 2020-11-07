@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bf {
+            width: 1000px;
+        }
+        .bf-1 {
+            width: 100%;
+            height: 100px;
+            background: yellow;
+        }
+        .bf-2 {
+            width:100%;
+            height: 300px;
+            background: blue;
+        }
+        .bf-3 {
+            width: 100%;
+            height: 50px;
+            background: red;
+        }
+        .sec {
+            width: 50%;
+            height: 100%;
+            background: aqua;
+            float: left;
+        }
+        .sec:nth-child(1) {
+            background: aquamarine;
+        }
+        .sec2 {
+            width: 25%;
+            height:100%;
+            background: dimgrey;
+            float: left;
+        }
+        .sec2:nth-child(odd) {
+            background: royalblue; 
+        }
+    </style>
+</head>
+<body>
+    <div class="bf">
+        <div class="bf-1"></div>
+        <div class="bf-2">
+            <div class="sec"></div>
+            <div class="sec"></div>
+        </div>
+        <div class="bf-2">
+            <div class="sec2"></div>
+            <div class="sec2"></div>
+            <div class="sec2"></div>
+            <div class="sec2"></div>
+        </div>
+        <div class="bf-3"></div>
+    </div>
+</body>
+</html>
